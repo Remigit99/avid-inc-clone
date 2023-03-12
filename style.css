@@ -451,13 +451,34 @@
         width: 4rem;
     }
 
-
+    .plaform__info p{
+        color: var(--clr-white);
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+    }
 
     /*================= Footer  ===========*/
 
+    footer{
+        background-color: var(--clr-black);
+        padding: 5rem 0 1rem;
+    }
 
+    .footer__container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        color: var(--clr-white);
+        gap: 4rem;
+    }
 
+    article >h6{
+        margin-bottom: 1.5rem;
+    }
 
+    .links a{
+        color: var(--clr-white);
+    }
 
 
 
@@ -498,32 +519,115 @@
             font-size: 0.85rem;
         }
 
-    /*================= Nav ===========*/
+    /*================= Header ===========*/
+    header{
+        height: 70vh;
+    }
+
+    /* nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+    } */
 
 
-
-    /*=================  ===========*/
-
-
-
-    /*=================  ===========*/
-
-
-
-    /*=================  ===========*/
-
-
-
-    /*=================  ===========*/
-
-
-
-    /*================= Footer  ===========*/
-
-
+    .nav__links{
+        display: none
     }
 
 
+    /*================= Hero ===========*/
+     .hero{
+        padding: 5rem 0 2rem;  
+    }
+
+    /*================= Services ===========*/
+    #services{
+        padding: 10rem 0;
+    }
+
+    .services__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*================= Description ===========*/
+
+   .des__container h3{
+    width: 80%;
+   }
+
+    /*================= Integrate ===========*/
+
+    .int__container{
+        grid-template-columns: 1fr;
+    }
+
+    .int__right p{
+        width: 80%;
+    }
+
+
+    .int__links li{
+        padding: 0.3rem 0;
+    }
+
+    /*================= Features ===========*/
+
+    .features__header h2{
+        width: 60%;
+    }
+
+    .feature p{
+        margin-top: 0.6rem;
+    }
+
+    
+    /*================= Video ===========*/
+
+    .video__container video{
+        width: 30rem;
+    }
+
+    .video__container p{
+        width: 65%;
+    }
+
+
+    /*================= Testimonials ===========*/
+
+    .testimonials{
+        gap: 2rem;
+    }
+
+    .testimonial{
+        padding: 1.5rem 1rem 1rem;
+    }
+
+    /*=================  Patners ===========*/
+
+    .patners{
+        margin-top: 2rem;
+    }
+
+
+    /*================= Platforms ===========*/
+
+    .platform-1{
+        padding: 3rem 0 2rem;
+    }
+
+    .platform__imgs{
+        gap: 2.5rem;
+    }
+
+    }
+
+    /*================= Footer  ===========*/
+
+    .footer__container{
+        gap: 2rem;
+    }
 
 
     /*================= Media Query (Small Devices) ===========*/
@@ -565,30 +669,149 @@
 
 
 
-    /*================= Nav ===========*/
+    /*================= Header ===========*/
+    header{
+        height: 75vh;
+    }
 
 
+    .nav__links{
+        display: none
+    }
 
-    /*=================  ===========*/
+    /*================= Hero ===========*/
+    .hero{
+        padding: 4rem 0 2rem;
+    }
+
+    .hero h1{
+        text-align: center;
+    }
+
+    .hero p{
+        width: 95%;
+        margin: 2rem auto 3rem;
+
+    }
+
+    .sub {
+        margin-bottom: 3rem;
+        
+    }
+
+    .sub input{
+        width: 10rem;
+    }
 
 
+    /*================= Services ===========*/
+    #services{
+        background-color: grey;
+        padding: 7rem 0 2rem;
+    }
 
-    /*=================  ===========*/
+    .services__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.5rem;
+    }
+
+    /*================= Description ===========*/
+   .des__container{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+   }
+
+   .des__container h3{
+    width: 98%;
+   }
+
+    /*================= Stat ===========*/
+
+    .stat__container{
+        padding: 2rem 0;
+    }
+
+    .stat__main{
+        flex-wrap: wrap;
+    }
+
+    .stat__container h5{
+        width: 55%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    /*================= Integrate ===========*/
+
+    .int__container{
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .int__right p{
+        margin-bottom: 1.5rem;
+        width: 98%;
+    }
+
+    /*================= Features ===========*/
+
+    .features__header h2{
+        width: 98%;
+    }
+
+    .features__main{
+        grid-template-columns: 1fr;
+    }
+
+    /*================= Video ===========*/
+    .video__container video{
+        width: 18rem;
+    }
+
+    .video__container p{
+        width: 75%;
+    }
+
+    /*================= Testimonials ===========*/
+
+    .testimonials{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    /*=================  Patners ===========*/
+
+    .patners{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
+    /*================= Platforms ===========*/
 
-    /*=================  ===========*/
+    .platform__imgs{
+        padding: 2rem 0;
+    }
 
+    .platform__imgs img{
+        width: 2rem;
+    }
 
-
-    /*=================  ===========*/
-
-
+    .plaform__info p{
+        width: 98%;
+    }
 
     /*================= Footer  ===========*/
 
-
+    .footer__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: var(--clr-white);
+        gap: 2rem;
     }
+
+}
 
 
 
